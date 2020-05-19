@@ -1,0 +1,64 @@
+    @font-face {font-family: "Ebrima"; src: url("https://db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.eot"); 
+    src: url("https://db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.eot?#iefix") format("embedded-opentype"), 
+    url("https://db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.woff2") format("woff2"), 
+    url("https://db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.woff") format("woff"), 
+    url("https://db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.ttf") format("truetype"), 
+    url("https://db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.svg#Ebrima") format("svg"); }        
+
+    body {
+    background: url(images/Background.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+
+    html {
+        height: 100%
+    }
+
+    text{
+        font-family: "Ebrima";
+        font-weight: bold;
+        font-size:10px;
+        pointer-events:none;
+    }
+
+    .container {
+        width: 500px;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    #chart{
+        position:fixed;
+        width:200px;
+        height:200px;
+        top:115px;
+        left:6%;
+    }
+    #question{
+        position: fixed;
+        width:540px;
+        height:300px;
+        top:300px;
+        left:510px;
+    }
+    #question h1{
+        font-size: 12px;
+        font-weight: normal;
+        font-family: "Ebrima";
+        text-align: justify;
+        position: static;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #footer {
+        font-size: 10px;
+        bottom: 0%;
+        position: fixed;
+        font-family: "Ebrima";
+    }
